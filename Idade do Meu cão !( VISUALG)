@@ -1,0 +1,11 @@
+algoritmo "Idade do meu cão!"
+var
+   ano_atual, ano_nasc, idade: Inteiro
+inicio
+      Escreva ("Em que ano nós estamos ?")
+      Leia (ano_atual)
+      Escreva ("Que idade ele nasceu? ")
+      Leia (ano_nasc)
+      idade <- ano_atual - ano_nasc
+      Escreva ("Então a idade do seu cão será", idade)
+fimalgoritmo
