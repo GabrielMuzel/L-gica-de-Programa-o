@@ -1,0 +1,9 @@
+algoritmo "Creuza Convertendo Dólar"
+var
+   reais, dolares: real
+inicio
+      Escreva ("Quanto Reais eu tenho? ")
+      Leia (reais)
+      dolares <- reais/4.66
+      Escreva ("Posso Adquirir U$", dolares)
+fimalgoritmo
